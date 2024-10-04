@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(23, 23, 78, 0.973);
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+nav h1{
+   padding-top: 20px;
+   font-size: 30px;
+   letter-spacing: 2px;
+}
+.contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.gameArea{
+    display: flex;
+    gap: 20px;
+}
+.gameArea span{
+    width: 100px;
+    height: 100px;
+}
+.gameArea span img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.gameArea span img:hover{
+    box-shadow: 0px 1px 6px 2px black;
+}
+.scoreBoard{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.scoreBoard .score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: cadetblue;
+    border: 2px solid rgb(0, 213, 255);
+    border-radius: 30px;
+    font-weight: bold;
+}
+button:hover{
+    width: 153px;
+    background-color: cadetblue;
+    border: 2px solid rgb(48, 52, 53);
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+#showResult{
+    margin-top: 40px;
+    height: 30px;
+    font-weight: bolder;
+}
+#whoWin{
+    margin-top: 20px;
+    height: 30px;
+    font-weight: bolder;
+    color: red;
+}
